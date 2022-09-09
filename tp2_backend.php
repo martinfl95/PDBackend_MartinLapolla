@@ -36,7 +36,7 @@
         echo "Suma: ", $num1+$num2, "<br> Resta: ", $num1-$num2;
     } elseif ($num1<$num2) {
         echo "El número ", $num1, " es menor que el número ", $num2,"<br>";
-        echo "Multiplicación: ", $num1*$num2, "<br> División: ", $num1/$num2, "<br> Resto: ",$num1%$num2;
+        echo "Multiplicación: ", $num1*$num2, "<br> División: ", floor($num1/$num2), "<br> Resto: ",$num1%$num2;
     } else {
         echo "Los números ingresados son iguales";
     }
